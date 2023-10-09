@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Copyright DTG & Bluebotlaboratories 2023- -->
+<html>
+  <head>
+    <link href="main.css" rel="stylesheet" />
+    <script src="./index.js"></script>
+
+    <title>Duct-Taped Games</title>
+  </head>
+  <body>
+    <div id="Section-DTG" class="parallax-section center-children" style="background-image: url('./assets/Background-DTG.jpg')">
+      <div class="info-card">
+        <h1>Duct-Taped Games</h1>
+        <p style="text-align: center;">Making games since 3070</p>
+
+        <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+          <p onclick="scrollToElement('Section-AboutUs')" class="scroll-link" style="margin: 5%;">About Us</p>
+          <p onclick="scrollToElement('Section-CM')" class="scroll-link" style="margin: 5%;">CM</p>
+          <p onclick="scrollToElement('Section-ContactUs')" class="scroll-link" style="margin: 5%;">Contact Us</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperator"></div>
+
+    <div id="Section-AboutUs" class="parallax-section center-children" style="background-image: url('./assets/Background-AboutUs.jpg')">
+      <div class="info-card">
+        <h1>Who are we?</h1>
+        <p>We are an Indie game development team, we are currently working on a F-Stop (Portal 2 Beta) fan game code named "CM" that will be revealed in the coming months.</p>
+
+        <div class="card-nav">
+          <p onclick="scrollToElement('Section-DTG')" class="scroll-link" style="margin: 5%;">Duct-Taped Games</p>
+          <div></div>
+          <p onclick="scrollToElement('Section-CM')" class="scroll-link" style="margin: 5%;">CM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperator"></div>
+
+    <div id="Section-CM" class="parallax-section center-children" style="background-image: url('./assets/Background-CM.jpg')">
+      <div class="info-card">
+        <h1>CM</h1>
+        <p>CM is a fan-made recreation of "F-Stop", a videogame concept created by Valve employees during the experimentation stage of Portal 2. CM's goal is to keep FStop's gameplay style whilst expanding upon through a unique art style.</p>
+        <p>It's main mechanic is a camera which you use to take photos of objects which you can then scale as you place them back into the world.</p>
+
+        <div class="card-nav">
+          <p onclick="scrollToElement('Section-AboutUs')" class="scroll-link" style="margin: 5%;">About Us</p>
+          <div></div>
+          <p onclick="scrollToElement('Section-ContactUs')" class="scroll-link" style="margin: 5%;">Contact Us</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperator"></div>
+
+    <div id="Section-ContactUs" class="parallax-section center-children" style="background-image: url('./assets/Background-ContactUs.jpg')">
+      <div class="info-card" style="text-align: center; padding: 15%;">
+        <h1>Contact Us</h1>
+        <p>Business Enquiries</p>
+        <a style="color: black;" href="mailto:business@ducttapedgames.com">business@ducttapedgames.com</a>
+
+        <br />
+        <br />
+        <br />
+
+        <p>Help & Support</p>
+        <a style="color: black;" href="mailto:support@ducttapedgames.com">support@ducttapedgames.com</a>
+
+        <br />
+        <br />
+        <br />
+        <div class="card-nav">
+          <p onclick="scrollToElement('Section-CM')" class="scroll-link" style="margin: 5%;">CM</p>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

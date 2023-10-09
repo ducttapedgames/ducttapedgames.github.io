@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "ITC_Souvenir_STD";
+    src:
+        local("ITC_Souvenir_STD"),
+        url("assets/ITC_Souvenir_Std_Bold.otf") format("opentype"),
+}
+
+* {
+    font-family: sans-serif;
+}
+
+h1, .scroll-link {
+    font-family: "ITC_Souvenir_STD", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("assets/CMIMAGE3.jpg");
+}
+
+
+.parallax-section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 50vH;
+    height: 100vH;
+    background-position: center;
+}
+
+.center-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-card {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 5%;
+    max-width: 70%;
+}
+
+.card-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-nav p {
+    flex-grow: 0;
+}
+.card-nav div {
+    flex-grow: 1;
+}
+
+.seperator {
+    height: 10vH;
+    width: 100%;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    filter: blur( 4px );
+}
+
+.scroll-link {
+    text-decoration: underline;
+    text-align: center;
+    cursor:pointer;
+}
