@@ -4,13 +4,30 @@
         local("ITC_Souvenir_STD"),
         url("assets/ITC_Souvenir_Std_Bold.otf") format("opentype"),
 }
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px #07090C;
+}
 
 * {
     font-family: sans-serif;
 }
 
 h1, .scroll-link {
-    font-family: "ITC_Souvenir_STD", sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 550;
+    color: white;
+    text-shadow: 2px 2px #07090C;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px #07090C;
+    text-align: center;
 }
 
 html, body {
@@ -26,8 +43,10 @@ html, body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 50vH;
-    height: 100vH;
+    height: 110vH;
     background-position: center;
+    border: 2px rgb(red, green, blue);
+    border-radius: 10pt;
 }
 
 .center-children {
@@ -38,11 +57,11 @@ html, body {
 }
 
 .info-card {
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: #0d1218e4;
+    box-shadow: 0 0px 32px 0 #ed854061;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
+    border-radius: 7px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     padding: 5%;
@@ -66,9 +85,9 @@ html, body {
     width: 100%;
 
     background: rgba( 255, 255, 255, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    filter: blur( 4px );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    filter: blur( 10px );
 }
 
 .scroll-link {
